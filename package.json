@@ -1,0 +1,24 @@
+{
+  "name": "glsl-transform",
+  "version": "1.0.0",
+  "description": "把类似 https://github.com/donmccurdy/three-gltf-viewer/blob/master/lib/three-vignette.frag#L2 这样内部有依赖模块的转化为无依赖的",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zilmill/glsl-transform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zilmill/glsl-transform/issues"
+  },
+  "homepage": "https://github.com/Zilmill/glsl-transform#readme",
+  "dependencies": {
+    "glsl-blend-soft-light": "^1.0.5",
+    "glsl-film-grain": "^1.0.4"
+  }
+}
